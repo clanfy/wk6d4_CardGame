@@ -1,10 +1,10 @@
 import java.util.*;
 
 public class Deck {
-  private ArrayList deck;
+  private ArrayList<Card> deck;
 
   public Deck (){
-    this.deck = new ArrayList<Deck>();
+    this.deck = new ArrayList<Card>();
     for (int i = 0; i < 13; i++){
       CardValue cardValue = CardValue.values()[i];
 
@@ -16,12 +16,11 @@ public class Deck {
   
 // Iterator cardIterator = deck.iterator();
 // while (cardIterator.hasNext())
-
-System.out.println(deck);
-
 }
  
-
+// public static void main(String[] args) {
+//     System.out.println(this.deck); 
+// }
 
 
 }
